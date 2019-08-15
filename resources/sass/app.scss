@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body
+{
+    background: #ffffff;
+}
+.container {
+    max-width: 900px;
+}
+.sprite-logo {
+    display: inline-block;
+    border-radius: 9px;
+    width: 44px;
+    height: 44px;
+    background: url(/images/sprite_bg.png?0918f0b…);
+    background-repeat: no-repeat;
+    background-position: -228px -51px;
+}
+.comment-metas ul {
+    padding: 0;
+    list-style: none;
+    font-weight: bolder;
+    a{
+        font-size: small;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.63);
+    }
+}
+.add-comment input, .add-comment button {
+    border-radius: 0;
+}
