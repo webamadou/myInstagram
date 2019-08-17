@@ -121,8 +121,8 @@ body {
     <div id="notfound">
         <div class="notfound">
             <div class="notfound-404">
-                <h1>404</h1>
-                <h2>Page not found</h2>
+                <h1>500</h1>
+                <h2>Server error</h2>
             </div>
             <a href={{route('home')}}>Homepage</a>
         </div>
